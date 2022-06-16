@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
+
+    <!--  Object Model Version -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Project METADATA -->
+    <parent>
+        <groupId>efs.deds.hol.modules</groupId>
+        <artifactId>tp1</artifactId>
+        <!-- MAJOR-Minor-Patch-Validation-Build -->
+        <version>1.0.0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>docs</artifactId>
+    <packaging>pom</packaging>
+
+    <!-- Common properties -->
+    <properties>
+        <!-- Project options -->
+        <!-- Enabling default site generation -->
+        <maven.site.skip>false</maven.site.skip>
+    </properties>
+
+    <!-- ################################################################################## -->
+    <!-- ################################################################################## -->
+    <!-- ############################## Project Information ############################### -->
+    <!-- ################################################################################## -->
+    <!-- ################################################################################## -->
+    <!-- PROJECT INFORMATION -->
+    <name>DEDS :: Java :: Hands-Of-Lab :: Documentation</name>
+    <description>Documentation pour le bac à sable Java</description>
+</project>
